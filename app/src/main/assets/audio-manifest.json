@@ -1,0 +1,356 @@
+{
+  "anar": {
+    "source": "https://pixabay.com/sound-effects/film-special-effects-firework-fountain-200051/",
+    "author": "Alexander Jauk / Alex_Jauk",
+    "source_filename": "alex_jauk-firework-fountain-200051.mp3",
+    "source_sha256": "04c92593002d1533a6613de17327df7ca4ca428492857d4c33bea1d278c79083",
+    "license": "Pixabay Content License",
+    "license_url": "https://pixabay.com/service/terms/",
+    "license_version_checked": "2026-10-20 terms",
+    "checked": "2026-11-10",
+    "acquisition": "Downloaded using the public Pixabay Free download button in the browser; source page displayed Content License.",
+    "duration": 19.994,
+    "main_start": 1.0,
+    "peak": 15.766791666666666,
+    "trim_start": 0,
+    "trim_end": 18.744,
+    "peak_gain": 0.36,
+    "match_status": "Recorded fountain; category match.",
+    "sha256": "7ee4cac64bb0376879343431e832bb2cf8a901c72158bdd038c044afa0621ae0",
+    "edits": "Decoded MP3 to 48 kHz mono PCM16, adjusted gain without pitch change, 10 ms edge fades, 1 s real sparkler-hiss ignition cue and 250 ms tail silence."
+  },
+  "chakri": {
+    "source": "https://pixabay.com/sound-effects/film-special-effects-buzzingbeefirework1-107785/",
+    "author": "j1987, published by freesound_community on Pixabay",
+    "source_filename": "freesound_community-buzzingbeefirework1-107785.mp3",
+    "source_sha256": "7770091f0b8ccb830cdb6f93120aa4c2980a17aafbf6045e756c26e489ac3b63",
+    "license": "Pixabay Content License",
+    "license_url": "https://pixabay.com/service/terms/",
+    "license_version_checked": "2026-10-20 terms",
+    "checked": "2026-11-10",
+    "acquisition": "Downloaded using the public Pixabay Free download button in the browser; source page displayed Content License.",
+    "duration": 3.17,
+    "main_start": 1.0,
+    "peak": 1.4948541666666666,
+    "trim_start": 0,
+    "trim_end": 1.92,
+    "peak_gain": 0.34,
+    "match_status": "Real spinning-bee firework recording; variant differs from the pictured chakri.",
+    "sha256": "fd43f23de2084ba0fc6e49dbf52f92ac3fc86ea4536deee66116e422ef6a3898",
+    "edits": "Decoded MP3 to 48 kHz mono PCM16, adjusted gain without pitch change, 10 ms edge fades, 1 s real sparkler-hiss ignition cue and 250 ms tail silence."
+  },
+  "phuljhadi": {
+    "source": "https://pixabay.com/sound-effects/film-special-effects-onesparkler-67535/",
+    "author": "RytmenPinnen, published by freesound_community on Pixabay",
+    "source_filename": "freesound_community-onesparkler-67535.mp3",
+    "source_sha256": "079352bdc94cf8b1b47bb1fe60f5deea14df39b40cdd6103f172e6c6c1e75a97",
+    "license": "Pixabay Content License",
+    "license_url": "https://pixabay.com/service/terms/",
+    "license_version_checked": "2026-10-20 terms",
+    "checked": "2026-11-10",
+    "acquisition": "Downloaded using the public Pixabay Free download button in the browser; source page displayed Content License.",
+    "duration": 15.35,
+    "main_start": 1.0,
+    "peak": 3.875125,
+    "trim_start": 34,
+    "trim_end": 48.1,
+    "peak_gain": 0.3,
+    "match_status": "Recorded sparkler excerpt; category match.",
+    "sha256": "5f44bc9e059e9e6d445d790f044f38d85949fa5f772b8dd6d2bc873df92c2a82",
+    "edits": "Decoded MP3 to 48 kHz mono PCM16, adjusted gain without pitch change, 10 ms edge fades, 1 s real sparkler-hiss ignition cue and 250 ms tail silence."
+  },
+  "sky": {
+    "source": "https://pixabay.com/sound-effects/city-firework-explosion-with-echo-147321/",
+    "author": "Alexander Jauk / Alex_Jauk",
+    "source_filename": "alex_jauk-firework-explosion-with-echo-147321.mp3",
+    "source_sha256": "2d4baa6edf94048ce46786790b384c0f3f5608da94fec4f5d970c5e9789241c0",
+    "license": "Pixabay Content License",
+    "license_url": "https://pixabay.com/service/terms/",
+    "license_version_checked": "2026-10-20 terms",
+    "checked": "2026-11-10",
+    "acquisition": "Downloaded using the public Pixabay Free download button in the browser; source page displayed Content License.",
+    "duration": 7.25,
+    "main_start": 1.0,
+    "peak": 4.45825,
+    "trim_start": 0,
+    "trim_end": 6,
+    "peak_gain": 0.5,
+    "match_status": "Recorded firework explosion with natural echo; virtual launch follows recording lead-in.",
+    "sha256": "9b83a9979a443de33e35dcf831578bc0c3ea26aff96e92595515b860729585d9",
+    "edits": "Decoded MP3 to 48 kHz mono PCM16, adjusted gain without pitch change, 10 ms edge fades, 1 s real sparkler-hiss ignition cue and 250 ms tail silence."
+  },
+  "sutli": {
+    "source": "https://pixabay.com/sound-effects/film-special-effects-cracker-sound-261119/",
+    "author": "Aman Kumar / TanwerAman",
+    "source_filename": "tanweraman-cracker-sound-261119.mp3",
+    "source_sha256": "7fa1190a7833c15327aa1e25291ed10d074ac5638f2ab124e38875efa0e8e0b8",
+    "license": "Pixabay Content License",
+    "license_url": "https://pixabay.com/service/terms/",
+    "license_version_checked": "2026-10-20 terms",
+    "checked": "2026-11-10",
+    "acquisition": "Downloaded using the public Pixabay Free download button in the browser; source page displayed Content License.",
+    "duration": 1.95,
+    "main_start": 1.0,
+    "peak": 1.0835208333333333,
+    "trim_start": 10.9,
+    "trim_end": 11.6,
+    "peak_gain": 0.43,
+    "match_status": "Provisional: isolated recorded Diwali firecracker bang; source does not identify sutli subtype.",
+    "sha256": "de0e06b48ff34aeb7ebf9aac8724efc2a502ddcd3aa7105227b811e94f7ae562",
+    "edits": "Decoded MP3 to 48 kHz mono PCM16, adjusted gain without pitch change, 10 ms edge fades, 1 s real sparkler-hiss ignition cue and 250 ms tail silence."
+  },
+  "ladi": {
+    "source": "https://pixabay.com/sound-effects/film-special-effects-cracker-sound-261119/",
+    "author": "Aman Kumar / TanwerAman",
+    "source_filename": "tanweraman-cracker-sound-261119.mp3",
+    "source_sha256": "7fa1190a7833c15327aa1e25291ed10d074ac5638f2ab124e38875efa0e8e0b8",
+    "license": "Pixabay Content License",
+    "license_url": "https://pixabay.com/service/terms/",
+    "license_version_checked": "2026-10-20 terms",
+    "checked": "2026-11-10",
+    "acquisition": "Downloaded using the public Pixabay Free download button in the browser; source page displayed Content License.",
+    "duration": 5.85,
+    "main_start": 1.0,
+    "peak": 1.5017708333333335,
+    "trim_start": 0,
+    "trim_end": 28.32,
+    "peak_gain": 0.38,
+    "match_status": "Assembled rapid string using distinct recorded Diwali bangs; not an unedited ladi recording.",
+    "sha256": "bdb5e740ec8a6e4f3b0c231a6acd4c8f621d26570096a35347ebc080aaacee86",
+    "edits": "Decoded MP3 to 48 kHz mono PCM16, adjusted gain without pitch change, 10 ms edge fades, 1 s real sparkler-hiss ignition cue and 250 ms tail silence.",
+    "burst_times": [
+      1.0265416666666667,
+      1.1512708333333332,
+      1.2775416666666666,
+      1.3755833333333334,
+      1.5017708333333335,
+      1.62575,
+      1.7255416666666665,
+      1.8469166666666665,
+      1.9714583333333333,
+      2.0690416666666667,
+      2.19325,
+      2.3198958333333333,
+      2.4185416666666666,
+      2.5432708333333336,
+      2.6695416666666665,
+      2.7675833333333335,
+      2.8937708333333334,
+      3.01775,
+      3.117541666666667,
+      3.238916666666667,
+      3.3634583333333334,
+      3.4610416666666666,
+      3.58525,
+      3.711895833333333,
+      3.8105416666666665,
+      3.9352708333333335,
+      4.061541666666667,
+      4.159583333333334,
+      4.285770833333333,
+      4.40975,
+      4.509541666666667,
+      4.630916666666667,
+      4.755458333333333,
+      4.853041666666666,
+      4.97725,
+      5.1038958333333335
+    ],
+    "assembly": [
+      {
+        "source_start": 1.14,
+        "source_end": 1.345,
+        "output_offset": 0.0
+      },
+      {
+        "source_start": 1.46,
+        "source_end": 1.665,
+        "output_offset": 0.124
+      },
+      {
+        "source_start": 2.71,
+        "source_end": 2.915,
+        "output_offset": 0.248
+      },
+      {
+        "source_start": 3.665,
+        "source_end": 3.87,
+        "output_offset": 0.348
+      },
+      {
+        "source_start": 4.04,
+        "source_end": 4.245,
+        "output_offset": 0.472
+      },
+      {
+        "source_start": 4.96,
+        "source_end": 5.165,
+        "output_offset": 0.596
+      },
+      {
+        "source_start": 5.355,
+        "source_end": 5.56,
+        "output_offset": 0.696
+      },
+      {
+        "source_start": 6.27,
+        "source_end": 6.475,
+        "output_offset": 0.82
+      },
+      {
+        "source_start": 6.71,
+        "source_end": 6.915,
+        "output_offset": 0.944
+      },
+      {
+        "source_start": 7.705,
+        "source_end": 7.91,
+        "output_offset": 1.044
+      },
+      {
+        "source_start": 8.225,
+        "source_end": 8.43,
+        "output_offset": 1.168
+      },
+      {
+        "source_start": 8.67,
+        "source_end": 8.875,
+        "output_offset": 1.292
+      },
+      {
+        "source_start": 1.14,
+        "source_end": 1.345,
+        "output_offset": 1.392
+      },
+      {
+        "source_start": 1.46,
+        "source_end": 1.665,
+        "output_offset": 1.516
+      },
+      {
+        "source_start": 2.71,
+        "source_end": 2.915,
+        "output_offset": 1.64
+      },
+      {
+        "source_start": 3.665,
+        "source_end": 3.87,
+        "output_offset": 1.74
+      },
+      {
+        "source_start": 4.04,
+        "source_end": 4.245,
+        "output_offset": 1.864
+      },
+      {
+        "source_start": 4.96,
+        "source_end": 5.165,
+        "output_offset": 1.988
+      },
+      {
+        "source_start": 5.355,
+        "source_end": 5.56,
+        "output_offset": 2.088
+      },
+      {
+        "source_start": 6.27,
+        "source_end": 6.475,
+        "output_offset": 2.212
+      },
+      {
+        "source_start": 6.71,
+        "source_end": 6.915,
+        "output_offset": 2.336
+      },
+      {
+        "source_start": 7.705,
+        "source_end": 7.91,
+        "output_offset": 2.436
+      },
+      {
+        "source_start": 8.225,
+        "source_end": 8.43,
+        "output_offset": 2.56
+      },
+      {
+        "source_start": 8.67,
+        "source_end": 8.875,
+        "output_offset": 2.684
+      },
+      {
+        "source_start": 1.14,
+        "source_end": 1.345,
+        "output_offset": 2.784
+      },
+      {
+        "source_start": 1.46,
+        "source_end": 1.665,
+        "output_offset": 2.908
+      },
+      {
+        "source_start": 2.71,
+        "source_end": 2.915,
+        "output_offset": 3.032
+      },
+      {
+        "source_start": 3.665,
+        "source_end": 3.87,
+        "output_offset": 3.132
+      },
+      {
+        "source_start": 4.04,
+        "source_end": 4.245,
+        "output_offset": 3.256
+      },
+      {
+        "source_start": 4.96,
+        "source_end": 5.165,
+        "output_offset": 3.38
+      },
+      {
+        "source_start": 5.355,
+        "source_end": 5.56,
+        "output_offset": 3.48
+      },
+      {
+        "source_start": 6.27,
+        "source_end": 6.475,
+        "output_offset": 3.604
+      },
+      {
+        "source_start": 6.71,
+        "source_end": 6.915,
+        "output_offset": 3.728
+      },
+      {
+        "source_start": 7.705,
+        "source_end": 7.91,
+        "output_offset": 3.828
+      },
+      {
+        "source_start": 8.225,
+        "source_end": 8.43,
+        "output_offset": 3.952
+      },
+      {
+        "source_start": 8.67,
+        "source_end": 8.875,
+        "output_offset": 4.076
+      }
+    ]
+  },
+  "_ignition": {
+    "source": "https://pixabay.com/sound-effects/film-special-effects-onesparkler-67535/",
+    "author": "RytmenPinnen, published by freesound_community on Pixabay",
+    "source_filename": "freesound_community-onesparkler-67535.mp3",
+    "source_sha256": "079352bdc94cf8b1b47bb1fe60f5deea14df39b40cdd6103f172e6c6c1e75a97",
+    "license": "Pixabay Content License",
+    "license_url": "https://pixabay.com/service/terms/",
+    "license_version_checked": "2026-10-20 terms",
+    "checked": "2026-11-10",
+    "acquisition": "Downloaded using the public Pixabay Free download button in the browser; source page displayed Content License.",
+    "trim_start": 16,
+    "trim_end": 17,
+    "description": "Recorded sparkler hiss used as virtual ignition cue at low gain."
+  }
+}

@@ -1,0 +1,50 @@
+﻿# Gradle and Android build output
+.gradle/
+.kotlin/
+**/build/
+**/.cxx/
+local.properties
+*.iml
+*.hprof
+*.jks
+*.keystore
+
+# React Native / Expo dependencies and generated state
+node_modules/
+.expo/
+.expo-shared/
+.metro-health-check*
+*.jsbundle
+
+# iOS / Xcode generated files
+Pods/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.ipa
+*.app/
+
+# Local environment and signing credentials
+.env
+.env.*
+!.env.example
+*.mobileprovision
+*.p12
+*.cer
+
+# Local tooling and research inputs
+.tools/
+.research/
+__pycache__/
+*.py[cod]
+
+# Generated distributables
+# Remove this entry if you want to commit APKs or source archives under dist/.
+dist/
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini

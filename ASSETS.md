@@ -1,0 +1,49 @@
+# Bundled recordings and licenses
+
+The new shared Android/iPhone AR project is in `cross-platform/`. It inherits these six recordings unchanged and adds 94 original 3D mesh parts with procedural materials. Its complete graphics and recording ledger is [cross-platform/ASSETS.md](cross-platform/ASSETS.md). The artwork notes below describe the original Kotlin camera-overlay version.
+
+Updated 10 November 2026. Five source recordings were downloaded through Pixabay's public browser controls and mastered offline into six interactive effects. The app no longer depends on reaching Freesound.
+
+## Sound matches
+
+| Effect | Author | Licensed source | Match and edits |
+|---|---|---|---|
+| anar | Alexander Jauk / Alex_Jauk | [alex_jauk-firework-fountain-200051.mp3](https://pixabay.com/sound-effects/film-special-effects-firework-fountain-200051/) | Recorded fountain; category match. |
+| chakri | j1987, published by freesound_community on Pixabay | [freesound_community-buzzingbeefirework1-107785.mp3](https://pixabay.com/sound-effects/film-special-effects-buzzingbeefirework1-107785/) | Real spinning-bee firework recording; variant differs from the pictured chakri. |
+| phuljhadi | RytmenPinnen, published by freesound_community on Pixabay | [freesound_community-onesparkler-67535.mp3](https://pixabay.com/sound-effects/film-special-effects-onesparkler-67535/) | Recorded sparkler excerpt; category match. |
+| sky | Alexander Jauk / Alex_Jauk | [alex_jauk-firework-explosion-with-echo-147321.mp3](https://pixabay.com/sound-effects/city-firework-explosion-with-echo-147321/) | Recorded firework explosion with natural echo; virtual launch follows recording lead-in. |
+| sutli | Aman Kumar / TanwerAman | [tanweraman-cracker-sound-261119.mp3](https://pixabay.com/sound-effects/film-special-effects-cracker-sound-261119/) | Provisional: isolated recorded Diwali firecracker bang; source does not identify sutli subtype. |
+| ladi | Aman Kumar / TanwerAman | [tanweraman-cracker-sound-261119.mp3](https://pixabay.com/sound-effects/film-special-effects-cracker-sound-261119/) | Assembled rapid string using distinct recorded Diwali bangs; not an unedited ladi recording. |
+
+## License and use
+
+All adopted recordings are used under the [Pixabay Content License](https://pixabay.com/service/terms/), terms version dated 20 October 2026, inspected in the browser on 10 November 2026. They are **not represented as CC0**. Audio is combined with original illustrations, particles, camera input, controls and authored timelines in this app. Do not redistribute these files as a standalone sound library. Original downloaded MP3s remain in ignored `.research/audio-inputs/`; they are not part of the source distribution. Some Pixabay entries are published by its freesound_community account, with original artists credited above; acquisition and license verification took place on Pixabay, without accessing the blocked Freesound origin.
+
+The original artwork and Kotlin code have no claim of ownership over these recordings. Full credits and source links are available inside Options → Sound credits.
+
+## Mastering and provenance
+
+Every output is 48 kHz mono PCM16. Gain is adjusted conservatively; pitch is unchanged. Clip edges use 10 ms fades and each track ends in 250 ms silence. A one-second excerpt of real sparkler hiss (oneSparkler, source seconds 16–17) supplies a virtual ignition cue; this is not claimed as an actual fuse recording.
+
+Anar uses the fountain recording. Phuljhadi uses source seconds 34–48.1 of oneSparkler. Chakri uses the complete spinning-bee recording. Sky shot uses the complete explosion-with-echo recording, with ascent aligned to the lead-in. Sutli isolates source seconds 10.9–11.6 of CRACKER SOUND; its specific subtype is unverified. Ladi is an authored sequence of 36 pops extracted from the Diwali field recording; exact excerpt offsets and output timings are recorded in the manifest. It is not an untouched ladi field recording.
+
+`app/src/main/assets/audio-manifest.json` is the precise machine-readable ledger: source URLs, file names, source/output SHA-256 hashes, trim boundaries, gain, cue times, ladi assembly edits and match limitations. The preparation script performs no network requests.
+
+## Output checksums
+
+| File | Duration | SHA-256 |
+|---|---|---|
+| audio/anar.wav | 19.994 s | `7ee4cac64bb0376879343431e832bb2cf8a901c72158bdd038c044afa0621ae0` |
+| audio/chakri.wav | 3.170 s | `fd43f23de2084ba0fc6e49dbf52f92ac3fc86ea4536deee66116e422ef6a3898` |
+| audio/phuljhadi.wav | 15.350 s | `5f44bc9e059e9e6d445d790f044f38d85949fa5f772b8dd6d2bc873df92c2a82` |
+| audio/sky.wav | 7.250 s | `9b83a9979a443de33e35dcf831578bc0c3ea26aff96e92595515b860729585d9` |
+| audio/sutli.wav | 1.950 s | `de0e06b48ff34aeb7ebf9aac8724efc2a502ddcd3aa7105227b811e94f7ae562` |
+| audio/ladi.wav | 5.850 s | `bdb5e740ec8a6e4f3b0c231a6acd4c8f621d26570096a35347ebc080aaacee86` |
+
+## Original artwork
+
+The six tray illustrations, app icon, placement reticle and particle graphics are original programmatic artwork. The user's reference photographs establish the categories; branded packaging and logos are not copied.
+
+## Review limits
+
+Source descriptions and waveforms were inspected; a physical listening/fidelity review and Poco M5 audiovisual timing review remain required. These are authentic recording excerpts and edited sequences, with the subtype limitations above. No claim of exact branded-product reproduction is made. The independent OpenGameArt CC0 pack investigated during sourcing was not adopted and is not bundled.

@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "Diwali AR",
+    "slug": "diwali-ar",
+    "version": "0.2.1",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "ios": {
+      "bundleIdentifier": "com.neev.diwaliar",
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Detect a floor and place virtual 3D firecrackers in your room.",
+        "UIRequiredDeviceCapabilities": [
+          "arkit",
+          "arm64"
+        ]
+      }
+    },
+    "android": {
+      "package": "com.neev.diwaliar",
+      "versionCode": 2,
+      "permissions": [
+        "android.permission.CAMERA"
+      ],
+      "blockedPermissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.READ_MEDIA_AUDIO",
+        "android.permission.READ_MEDIA_IMAGES",
+        "android.permission.READ_MEDIA_VIDEO",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_EXTERNAL_STORAGE"
+      ]
+    },
+    "plugins": [
+      [
+        "@reactvision/react-viro",
+        {
+          "android": {
+            "xRMode": [
+              "AR"
+            ]
+          },
+          "ios": {
+            "cameraUsagePermission": "Detect a floor and place virtual 3D firecrackers in your room."
+          }
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "deploymentTarget": "15.1"
+          },
+          "android": {
+            "minSdkVersion": 26,
+            "useLegacyPackaging": true
+          }
+        }
+      ],
+      [
+        "expo-audio",
+        {
+          "microphonePermission": false
+        }
+      ],
+      "./plugins/withNativeCorrections",
+      "./plugins/withEglFallback"
+    ],
+    "assetBundlePatterns": [
+      "assets/**/*"
+    ]
+  }
+}
