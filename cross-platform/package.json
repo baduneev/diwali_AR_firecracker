@@ -1,6 +1,6 @@
 {
   "name": "diwali-ar",
-  "version": "0.2.1",
+  "version": "0.2.12",
   "private": true,
   "main": "index.ts",
   "scripts": {
@@ -24,6 +24,8 @@
   },
   "devDependencies": {
     "@types/react": "19.1.10",
+    "@types/react-test-renderer": "19.1.0",
+    "react-test-renderer": "19.1.0",
     "tsx": "4.20.5",
     "typescript": "5.9.2"
   },

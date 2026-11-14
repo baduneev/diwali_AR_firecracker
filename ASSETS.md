@@ -1,6 +1,6 @@
 # Bundled recordings and licenses
 
-The new shared Android/iPhone AR project is in `cross-platform/`. It inherits these six recordings unchanged and adds 94 original 3D mesh parts with procedural materials. Its complete graphics and recording ledger is [cross-platform/ASSETS.md](cross-platform/ASSETS.md). The artwork notes below describe the original Kotlin camera-overlay version.
+The shared Android/iPhone AR project is in `cross-platform/`. It uses these six recordings and 94 original 3D mesh parts with procedural materials. Shared version 0.2.7 extends Chakri with a crossfaded loop; the original Kotlin recordings listed below remain unchanged. The complete shared-app graphics and recording ledger is [cross-platform/ASSETS.md](cross-platform/ASSETS.md). The artwork notes below describe the original Kotlin camera-overlay version.
 
 Updated 10 November 2026. Five source recordings were downloaded through Pixabay's public browser controls and mastered offline into six interactive effects. The app no longer depends on reaching Freesound.
 
@@ -47,3 +47,7 @@ The six tray illustrations, app icon, placement reticle and particle graphics ar
 ## Review limits
 
 Source descriptions and waveforms were inspected; a physical listening/fidelity review and Poco M5 audiovisual timing review remain required. These are authentic recording excerpts and edited sequences, with the subtype limitations above. No claim of exact branded-product reproduction is made. The independent OpenGameArt CC0 pack investigated during sourcing was not adopted and is not bundled.
+
+## Shared AR app 0.2.10
+
+The current AR app has a stronger Sutli master and runtime burn envelopes. See [shared asset ledger](cross-platform/ASSETS.md) and [video reference notes](cross-platform/EFFECT_REFERENCES.md). The original Kotlin audio files in this ledger remain unchanged.

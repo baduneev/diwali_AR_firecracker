@@ -70,3 +70,7 @@ Check all six effects in bright/dim scenes, clear during playback, background/re
 `MainActivity.kt` owns camera lifecycle, permission/settings flows and controls. `Session.kt` owns allowed state transitions and run cancellation. `Effects.kt` loads typed effect definitions and recording cue offsets. `AudioEngine.kt` streams PCM through AudioTrack and exposes the presentation clock. `ParticleView.kt` draws pooled particles in GLES. `CrackerArt.kt` contains original artwork, placement reticle, contrast scrim and local glow.
 
 The existing browser QA project in the parent folder is a separate project.
+
+## Current shared AR build
+
+Version 0.2.12 uses the React Native app in [cross-platform](cross-platform/README.md). The current Android deliverable is `dist/Diwali-AR-0.2.12-assisted-placement.apk`. It adds on-demand tap hit testing and labelled assisted horizontal placement when full surface geometry is unavailable, with adjustable height. Compact controls, burn dynamics and overlapping sky shots are retained. The original Kotlin app remains in `app/`.

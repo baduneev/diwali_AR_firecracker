@@ -2,6 +2,14 @@ import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {initialSession, reduceSession, sampleBurn, localPoint,playbackSample,canIgnite,horizontalAlignment,sparkVelocity} from '../src/core';
 const ground={id:'floor-1',position:[1,0,-2] as [number,number,number],normal:[0,1,0] as [number,number,number]};
+test('retiring the source plane does not invalidate an independent point placement',()=>{
+ let s=reduceSession(reduceSession(initialSession(),{type:'tracking',normal:true}),{type:'place',anchor:ground});
+ s=reduceSession(s,{type:'surface',id:'floor-1',available:false});
+ assert.deepEqual(s.anchor?.position,[1,0,-2]);assert.equal(canIgnite(s,true,true),true);
+ assert.equal(reduceSession(s,{type:'ignite'}).phase,'burning');
+ s=reduceSession(s,{type:'surface',id:'floor-1',replacementId:'floor-2',available:true});
+ assert.equal(canIgnite(s,true,true),true);assert.equal(s.anchor?.id,'floor-2');
+});
 test('aerial bursts spread downward as well as upward while ground bursts start above the floor',()=>{
  const timing={duration:7,main:1,peak:4,cues:[]};
  const aerial=sparkVelocity('sky',4,timing),ground=sparkVelocity('sutli',4,timing);

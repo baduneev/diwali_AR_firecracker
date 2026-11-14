@@ -2,7 +2,7 @@
   "expo": {
     "name": "Diwali AR",
     "slug": "diwali-ar",
-    "version": "0.2.1",
+    "version": "0.2.12",
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
     "newArchEnabled": true,
@@ -10,7 +10,7 @@
       "bundleIdentifier": "com.neev.diwaliar",
       "supportsTablet": false,
       "infoPlist": {
-        "NSCameraUsageDescription": "Detect a floor and place virtual 3D firecrackers in your room.",
+        "NSCameraUsageDescription": "Detect horizontal surfaces and place virtual 3D firecrackers in your room.",
         "UIRequiredDeviceCapabilities": [
           "arkit",
           "arm64"
@@ -19,7 +19,7 @@
     },
     "android": {
       "package": "com.neev.diwaliar",
-      "versionCode": 2,
+      "versionCode": 13,
       "permissions": [
         "android.permission.CAMERA"
       ],
@@ -42,7 +42,7 @@
             ]
           },
           "ios": {
-            "cameraUsagePermission": "Detect a floor and place virtual 3D firecrackers in your room."
+            "cameraUsagePermission": "Detect horizontal surfaces and place virtual 3D firecrackers in your room."
           }
         }
       ],
@@ -65,7 +65,8 @@
         }
       ],
       "./plugins/withNativeCorrections",
-      "./plugins/withEglFallback"
+      "./plugins/withEglFallback",
+      "./plugins/withArBackpressure"
     ],
     "assetBundlePatterns": [
       "assets/**/*"

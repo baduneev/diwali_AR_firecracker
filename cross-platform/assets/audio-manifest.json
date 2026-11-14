@@ -29,15 +29,24 @@
     "license_version_checked": "2026-10-20 terms",
     "checked": "2026-11-10",
     "acquisition": "Downloaded using the public Pixabay Free download button in the browser; source page displayed Content License.",
-    "duration": 3.17,
+    "duration": 13.25,
     "main_start": 1.0,
     "peak": 1.4948541666666666,
     "trim_start": 0,
     "trim_end": 1.92,
     "peak_gain": 0.34,
-    "match_status": "Real spinning-bee firework recording; variant differs from the pictured chakri.",
-    "sha256": "fd43f23de2084ba0fc6e49dbf52f92ac3fc86ea4536deee66116e422ef6a3898",
-    "edits": "Decoded MP3 to 48 kHz mono PCM16, adjusted gain without pitch change, 10 ms edge fades, 1 s real sparkler-hiss ignition cue and 250 ms tail silence."
+    "match_status": "Crossfaded 12 s loop of a real spinning-bee recording; not an unedited chakri field recording.",
+    "sha256": "49487964cd60be80db53230de69607eea9c12ec296ae6c6f7bc2069ec4f7bcb2",
+    "edits": "Original 1 s real sparkler-hiss ignition retained. The mastered spinning-bee body is repeated with 40 ms linear crossfades, unchanged pitch, an 80 ms final fade and 250 ms silence. Only the shared AR app uses this extended edit.",
+    "base_edit_sha256": "fd43f23de2084ba0fc6e49dbf52f92ac3fc86ea4536deee66116e422ef6a3898",
+    "loop_edit": {
+      "input_asset": "original Kotlin audio/chakri.wav",
+      "input_body_start": 1,
+      "input_body_end": 2.92,
+      "crossfade_seconds": 0.04,
+      "body_duration_seconds": 12,
+      "end_fade_seconds": 0.08
+    }
   },
   "phuljhadi": {
     "source": "https://pixabay.com/sound-effects/film-special-effects-onesparkler-67535/",
@@ -94,10 +103,20 @@
     "peak": 1.0835208333333333,
     "trim_start": 10.9,
     "trim_end": 11.6,
-    "peak_gain": 0.43,
+    "peak_gain": 0.96,
     "match_status": "Provisional: isolated recorded Diwali firecracker bang; source does not identify sutli subtype.",
-    "sha256": "de0e06b48ff34aeb7ebf9aac8724efc2a502ddcd3aa7105227b811e94f7ae562",
-    "edits": "Decoded MP3 to 48 kHz mono PCM16, adjusted gain without pitch change, 10 ms edge fades, 1 s real sparkler-hiss ignition cue and 250 ms tail silence."
+    "sha256": "6df625dfc81ffc45cc6bcd4f0601bc67d7ab613f463416e6f2d8bc6c27f56996",
+    "edits": "Original 1 s real ignition retained. The bang/decay uses source-derived 70-400 Hz reinforcement and soft transient compression, normalized to 0.96 full-scale with headroom. No synthetic sound, pitch change or hard clipping. Runtime gain is strongest for Sutli; source is a generic Diwali bang, not a brand-specific recording.",
+    "base_edit_sha256": "de0e06b48ff34aeb7ebf9aac8724efc2a502ddcd3aa7105227b811e94f7ae562",
+    "mastering": {
+      "soft_drive": 4,
+      "source_low_mid_band_hz": [
+        70,
+        400
+      ],
+      "low_mid_mix": 0.6,
+      "peak_headroom": 0.96
+    }
   },
   "ladi": {
     "source": "https://pixabay.com/sound-effects/film-special-effects-cracker-sound-261119/",
